@@ -15,19 +15,19 @@ app.use(express.static(__dirname + '/public'));
 // defining variables.
 // making a var for the two animal and their links.
 //I'm not really sure how to get the Ip address and the date and stuff.
+// while 
 var vote = 0;
 var voteScout = [ 
-    
     {
         vote: "Scout has " +vote,
         }
-       ];
+];
        
 var voteToby = [
     {
         vote: "Toby has " +vote,
         }
-        ];
+];
 
 var Scout = [
     {
@@ -60,7 +60,8 @@ app.get('/vote/scout', function(req,res){
 
 	res.render('page',{
 	     outcome: "You voted for Scout.",
-	     content:Scout
+	     content:Scout,
+	     //vote: ++voteScout;
 	});
 
 });
@@ -71,6 +72,7 @@ app.get('/vote/toby', function(req,res){
 	res.render('page',{
 	    outcome: "You voted for Toby.",
 	    content:Toby,
+	    //vote: ++voteScout;
 	    
 	    
 	});
