@@ -1,0 +1,31 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   app.js
+#	new file:   package.json
+#	new file:   views/404.handlebars
+#	new file:   views/500.handlebars
+#	new file:   views/express/History.md
+#	new file:   views/express/LICENSE
+#	new file:   views/express/Readme.md
+#	new file:   views/express/index.js
+#	new file:   views/express/lib/application.js
+#	new file:   views/express/lib/express.js
+#	new file:   views/express/lib/middleware/init.js
+#	new file:   views/express/lib/middleware/query.js
+#	new file:   views/express/lib/request.js
+#	new file:   views/express/lib/response.js
+#	new file:   views/express/lib/router/index.js
+#	new file:   views/express/lib/router/layer.js
+#	new file:   views/express/lib/router/route.js
+#	new file:   views/express/lib/utils.js
+#	new file:   views/express/lib/view.js
+#	new file:   views/home.handlebars
+#	new file:   views/layouts/main.handlebars
+#	new file:   views/page.handlebars
+#
