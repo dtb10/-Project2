@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/public'));
 
 // defining variables.
 // making a var for the two animal and their links.
-
+//I'm not really sure how to get the Ip address and the date and stuff.
 var vote = 0;
 var voteScout = [ 
     
